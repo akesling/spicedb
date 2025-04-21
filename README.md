@@ -43,7 +43,7 @@ As of 2021, [broken access control became the #1 threat to web security accordin
 With SpiceDB, platform teams are armed with the same techniques for stopping this threat that the hyperscale tech companies have been doing for years behind closed doors.
 
 Similar to a relational database, developers define a schema, write data to the database, and query that data in various ways.
-However, unlike relational databases that use general-purpose SQL, SpiceDB exposes a gRPC API specifcally optimized for authorizing actions in your systems.
+However, unlike relational databases that use general-purpose SQL, SpiceDB exposes a gRPC API specifically optimized for authorizing actions in your systems.
 
 Because SpiceDB self-contains data and logic for used for authorization, it is often ran as a centralized service shared across product suites and microservice architectures.
 
